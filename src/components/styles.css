@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Ubuntu:wght@500&display=swap');
+@import url("https://use.typekit.net/hwe2eom.css");
+:root {
+    --primary-red: #bf1e2d;
+    --primary-blue: #293a61;
+    --main-bg: #f0f0f0;
+  }
+
+.titleText {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.default-page {
+    background-color: rgb(240, 240, 240);
+}
+
+.home-container {
+    height: 100%;
+    position: relative;
+    background-position: top center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding: 0px;
+    background-color: var(--main-bg);
+}
+
+.contact-container {
+    height: 100%;
+    position: relative;
+    background-position: top center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding: 0px;
+    background-color: var(--main-bg);
+}
+
+.home-pic-end {
+    height: 20vw;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+}
+
+.home-pic {
+    padding: 10px;
+}
+
+.charity-pic-container {
+    height: 20vw;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+}
+
+.charity-pic {
+    height: 100%;
+    padding: 10%;
+    display: flex;
+}
+
+.homepage-bgimage {
+    background: url("./imgs/mri_room_1.png");
+    position: relative;
+    height: 50vw;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .aboutpage-bgimage {
+    background: url("./imgs/mri_room_1.png");
+    position: relative;
+    height: 20vw;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .homepage-bgimage2 {
+    background: url("./imgs/mri_room_2_blue.png");
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+  }
+
+  .aboutpage-bgimage2 {
+    background-color: var(--primary-blue);
+    width: 76vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+  }
+
+  .about-img-container {
+    background-color: var(--main-bg);
+    padding:10px;
+  }
+
+.header-text {
+    font-family: "interstate", sans-serif; 
+    font-style: italic;
+    width: 90%;
+    left: 5%;
+    color:rgb(255, 255, 255);
+    font-size: 5vmax;
+    background: rgba(191, 30, 45, 0.8);
+    position: relative;
+    padding: 2vw;
+}
+
+.home-text {
+    font-family: "interstate", sans-serif; 
+    color:rgb(235, 235, 235);
+    font-size: 20px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    position: relative;
+    top: 10vh;
+}
+
+.home-button {
+    font-family: "interstate", sans-serif; 
+    position: relative;
+    padding: 10px;
+    background: var(--primary-red);
+    color: rgb(255, 255, 255);
+    top: 15vh;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.home-button:hover {
+    background: rgb(255,255,255);
+    color: var(--primary-red)
+}
+
+.home-section-header {
+    font-family: "interstate", sans-serif; 
+    color: var(--primary-red);
+    position: relative;
+    font-size: 28px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: left;
+}
+
+.home-section-text {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-size: large;
+    text-align: left;
+}
+
+.home-section-container {
+    padding:10px;
+    align-content: left;
+}
+
+.about-section-container {
+    padding:30px;
+    align-content: left;
+}
+
+.about-header {
+    font-family: "interstate", sans-serif; 
+    color: var(--primary-red);
+    position: relative;
+    font-size: 40px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: left;
+}
+.about-section-header {
+    font-family: "interstate", sans-serif; 
+    color: var(--primary-red);
+    position: relative;
+    font-size: 28px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: left;
+}
+
+.about-section-text {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: large;
+    text-align: left;
+}
+
+.contact-section-text {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: medium;
+    text-align: left;
+}
+
+.about-text {
+    color: var(--main-bg);
+    font-size: 23px;
+}
+
+.charity-section-header {
+    font-family: "interstate", sans-serif; 
+    color: var(--primary-red);
+    position: relative;
+    font-size: 24px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+}
+
+.contact-section-header {
+    font-family: "interstate", sans-serif; 
+    color: var(--primary-red);
+    position: relative;
+    font-size: 36px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: left;
+}
+
+.graphicdesign-section {
+    color: rgb(235, 235, 235);
+    font-size: 60px;
+}
+
+.white-lefty-about-text {
+    color: rgb(235, 235, 235);
+    font-size: 20px;
+}
+
+.white-header-text {
+    color: rgb(235, 235, 235);
+    font-size: 60px;
+}
+
+.white {
+    color:rgb(235, 235, 235);
+}
+
+.homeText {
+    text-align: "left";
+    color: rgb(128, 128, 128);
+}
+
+.social-link {
+    color: rgb(222, 222, 222) 
+}
+
+.social-link:hover {
+    color: rgb(147, 75, 75);
+}
+
+.about-me-title {
+    color: rgb(235, 235, 235);
+    font-size: 40px;
+}
+
+.bodyText {
+    color: rgb(102, 102, 102);
+}
+
+.banner {
+    padding: "10px";
+    position: relative;
+    z-index: 1;
+    background-color: var(--main-bg);
+}
+
+.banner-link {
+    color: var(--primary-red);
+    font-size: 20px;
+    font-family: "interstate", sans-serif; 
+
+}
+
+.banner-link:hover {
+    color: var(--primary-blue);
+}
+
+.footer-link-text {
+    color:rgb(255,255,255);
+    text-decoration: none;
+    font-family: "interstate", sans-serif; 
+}
+
+.footer-link-text:hover {
+    color: var(--primary-red);
+}
+
+.colorBanner {
+    background-color: var(--main-bg);
+    padding-left: '1000px';
+    padding-right: '100px';
+}
+
+.coverImg {
+    height: 200px;
+    width: 200px;
+}
+
+html {
+    height: 100%;
+}
+
+.about-container {
+    height: 100%;
+    position: relative;
+    background-position: top center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.code-container {
+    height: 100%;
+    position: relative;
+    background-position: top center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.graphicdesign-container {
+    height: 100%;
+    position: relative;
+    background-position: top center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.footer-item-container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.footer-text-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;   
+    padding-left: 0%; 
+    padding-right: 0%; 
+
+}
+
+.home-top {
+    z-index: 1;
+    position: relative;
+}
+
+.home-bottom {
+    z-index: 1;
+    position: relative;
+}
+
+.contact-card {
+    z-index: 1;
+    position: relative;
+}
+
+.tabset {
+    z-index: 2;
+    color: rgb(207, 207, 207);
+    background-color: #212528;
+}
+
+.pagetitle {
+    font-size: 50px;
+}
+
+.input-container{
+    top: -4px;
+	position:relative;
+	margin-bottom:25px;
+    margin-left: 32px;
+    border-radius: 4px;
+    background-color: rgb(230,230,230);
+    width:40vw;
+}
+.input-container label{
+	position:absolute;
+	top:-16px;
+	left:0px;
+	font-size:12px;
+    color: var(--primary-blue);
+    transition: all 0.5s ease-in-out;
+	
+}
+.input-container input{ 
+  border:0;
+  border-bottom:1px solid var(--primary-blue);  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  padding-left: 10px;
+  font-size:16px;
+  border-radius: 4px;
+  color: var(--primary-blue);
+}
+.input-container input:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid var(--primary-red);	
+ background-color: rgb(210,210,210);
+
+}
+
+.textarea-container{
+    top: -4px;
+	position:relative;
+	margin-bottom:25px;
+    margin-left: 32px;
+    width:40vw;
+}
+
+.textarea-container label{
+	position:absolute;
+	top:-4px;
+	left:0px;
+	font-size:12px;
+    color: var(--primary-blue);
+    transition: all 0.5s ease-in-out;
+}
+
+.textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    border: 1px solid var(--primary-blue);
+    border-radius: 4px;
+    background-color: rgb(230,230,230);
+    font-size: 16px;
+    resize: none;
+  }
+
+  .textarea:focus{
+    outline: none !important;
+    border:1px solid var(--primary-red);
+    box-shadow: 0 0 2px var(--primary-blue);
+    background-color: rgb(210,210,210);
+  }
+
+  .contact-submit {
+    font-family: "interstate", sans-serif; 
+    position: relative;
+    font-size: 24px;;
+    background: var(--primary-red);
+    border: 0px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+.contact-submit:hover {
+    background: rgb(255,255,255);
+    color: var(--primary-red);
+    outline:2px solid var(--primary-red);
+}
