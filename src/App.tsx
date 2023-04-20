@@ -3,6 +3,8 @@ import Banner from './components/banner';
 import Home from './components/home';
 import About from './components/about';
 import Services from './components/services';
+import Healthcare from './components/healthcare';
+import Commercial from './components/commercial';
 import Contact from './components/contact';
 import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import './App.css';
@@ -17,8 +19,8 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/services" element={<Services />}></Route>
-          <Route path="/healthcare" element={<Home />}></Route>
-          <Route path="/commercial" element={<Home />}></Route>
+          <Route path="/healthcare" element={<Healthcare />}></Route>
+          <Route path="/commercial" element={<Commercial />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
         </Routes> 
         <Footer />

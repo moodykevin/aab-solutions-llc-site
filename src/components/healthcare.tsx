@@ -12,7 +12,7 @@ const home = () => {
         <Container fluid className='home-container'>
             <Container fluid className="container-fluid homepage-bgimage">
                 <div >
-                    <h1 className="header-text"> Services </h1>
+                    <h1 className="header-text"> Healthcare </h1>
                 </div>
             </Container>
             <Container className="home-pic-end">
