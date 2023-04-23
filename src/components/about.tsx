@@ -25,13 +25,13 @@ const about = () => {
                  of our work, from project planning and design to construction and maintenance.</p>
             </Container>
             <Container fluid >
-                <div className="container-fluid aboutpage-bgimage2">
+                <div className="container-fluid aboutpage-bgimage2" >
                         <br></br>
                         <Container>
                         <Container className="about-img-container">
                         <h2 className="about-section-header">Our History</h2>
                         <p className="about-section-text"> Founded in XXXX by XXXXXX XXXXXX, All Access Building Solutions LLC. 
-                        is a leading construction company that specializes in healthcare and commercial zones in New England. <br></br><br></br>
+                        is a leading construction company that specializes in healthcare and commercial zones in XXXXXXXXX. <br></br><br></br>
                         We have extensive experience in healthcare construction, working on a wide range of projects from 
                         small clinics to large hospitals.</p>
                         </Container>

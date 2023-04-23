@@ -83,9 +83,17 @@
     background-size: 80%;
   }
 
+  .servicespage-bgimage {
+    background: url("./imgs/exterior_red_1.png");
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+  }
+
   .aboutpage-bgimage2 {
     background-color: var(--primary-blue);
-    width: 76vw;
+    width: 80vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80%;
@@ -99,13 +107,23 @@
 .header-text {
     font-family: "interstate", sans-serif; 
     font-style: italic;
-    width: 90%;
-    left: 5%;
+    width: 80%;
+    left: 10%;
     color:rgb(255, 255, 255);
-    font-size: 5vmax;
-    background: rgba(191, 30, 45, 0.8);
+    font-size: 4vmax;
+    background: rgba(191, 30, 45, 0.9);
     position: relative;
     padding: 2vw;
+}
+
+.home-header {
+    font-family: "interstate", sans-serif; 
+    color: var(--primary-red);
+    position: relative;
+    font-size: 40px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: left;
 }
 
 .home-text {
@@ -134,6 +152,25 @@
     color: var(--primary-red)
 }
 
+.services-button {
+    font-family: "interstate", sans-serif; 
+    position: relative;
+    padding: 10px;
+    background: var(--primary-blue);
+    color: rgb(255, 255, 255);
+    top: 15vh;
+    right: 5%;
+    transition: 0.3s;
+    /* width: 30vw; */
+    /* font-size: 3vw; */
+    text-decoration: none;
+}
+
+.services-button:hover {
+    background: rgb(255,255,255);
+    color: var(--primary-blue)
+}
+
 .home-section-header {
     font-family: "interstate", sans-serif; 
     color: var(--primary-red);
@@ -157,7 +194,7 @@
 }
 
 .about-section-container {
-    padding:30px;
+    padding:10px;
     align-content: left;
 }
 
