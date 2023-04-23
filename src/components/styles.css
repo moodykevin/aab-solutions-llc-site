@@ -59,6 +59,42 @@
     display: flex;
 }
 
+.dual {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+
+.dual-pic-container{
+    min-height: 40vw;
+    background: url("./imgs/waiting.png");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: 50%;
+}
+.dual-pic{
+    height:35vw;
+    background-color: var(--primary-blue);
+}
+
+.dual-header {
+    font-family: "interstate", sans-serif; 
+    color: var(--primary-red);
+    font-size: 36px;
+    text-align: left;
+}
+
+.dual-text {
+    /* font-size: medium; */
+    /* font-size: 2.7vw; */
+    /* font-size: 12pt; */
+    font-size: min(14pt, 2.7vw);
+    /* font-size: min(3.0vw, 2.0vw); */
+    text-align: left;
+}
+
 .homepage-bgimage {
     background: url("./imgs/mri_room_1.png");
     position: relative;
@@ -181,7 +217,7 @@
     text-align: left;
 }
 
-.home-section-text {
+.main-text {
     padding-left: 10vw;
     padding-right: 10vw;
     font-size: large;

@@ -19,7 +19,7 @@ const about = () => {
             </Container>
             <Container fluid className="about-section-container">
                 <h2 className="about-header"> About Us</h2>
-                <p className="home-section-text"> Our company is a leader in the construction industry, with a focus on healthcare
+                <p className="main-text"> Our company is a leader in the construction industry, with a focus on healthcare
                  and commercial zones. We have a team of experienced professionals who specialize in delivering high-quality, 
                  cost-effective projects that are completed on time. Our commitment to excellence is reflected in every aspect 
                  of our work, from project planning and design to construction and maintenance.</p>

@@ -18,7 +18,7 @@ const home = () => {
             <br></br>
             <Container fluid className="home-section-container">
                 <h2 className="home-header"> Building Projects From Coast to Coast</h2>
-                <p className="home-section-text"> Our team of professionals is dedicated to providing the highest quality 
+                <p className="main-text"> Our team of professionals is dedicated to providing the highest quality 
                 service and workmanship, while ensuring your project is completed on time and within budget. We understand 
                 the unique requirements of healthcare construction and have the knowledge and experience to meet all necessary 
                 regulations and standards. We'll work closely with you to establish a timeline that meets your needs while 
@@ -36,7 +36,7 @@ const home = () => {
             <br></br>
             <Container fluid className="home-section-container">
                 <h2 className="home-header"> Our Team And Mission</h2>
-                <p className="home-section-text"> Our project management team is equipped with the skills and tools to plan, 
+                <p className="main-text"> Our project management team is equipped with the skills and tools to plan, 
                 execute, and control every aspect of your project. We understand the importance of maintaining a clear line 
                 of communication with our clients, which is why we work closely with you to ensure that your project's 
                 objectives and deadlines are met. With our extensive experience in the industry, we're well-versed in managing 

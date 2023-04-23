@@ -17,6 +17,7 @@ const Footer = () => {
 
                 <Col className="footer-item-container">
                     <Link to='/' className='footer-link-text' >HOME</Link>
+                    <br></br><br></br>
                 </Col>
 
                 <Col className="footer-item-container">
@@ -37,6 +38,8 @@ const Footer = () => {
 
                 <Col className="footer-item-container">
                     <Link to='/contact' className='footer-link-text' >CONTACT</Link>
+                    <br></br><br></br>
+
                 </Col>
                 </Container>
 
