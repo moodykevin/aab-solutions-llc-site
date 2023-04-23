@@ -35,7 +35,7 @@
     background-color: var(--main-bg);
 }
 
-.home-pic-end {
+.bottom-pic-container {
     height: 20vw;
     width: 95vw;
     display: flex;
@@ -87,11 +87,7 @@
 }
 
 .dual-text {
-    /* font-size: medium; */
-    /* font-size: 2.7vw; */
-    /* font-size: 12pt; */
     font-size: min(14pt, 2.7vw);
-    /* font-size: min(3.0vw, 2.0vw); */
     text-align: left;
 }
 
@@ -140,16 +136,26 @@
     padding:10px;
   }
 
+.header-container {
+    width:60%;
+    left: 20%;
+    background: rgba(191, 30, 45, 0.9);
+    margin: auto;
+}
+
 .header-text {
     font-family: "interstate", sans-serif; 
     font-style: italic;
-    width: 80%;
-    left: 10%;
     color:rgb(255, 255, 255);
-    font-size: 4vmax;
-    background: rgba(191, 30, 45, 0.9);
-    position: relative;
-    padding: 2vw;
+    font-size: min(3.4vmax, 50px);
+    padding: 1vw;
+}
+
+.header-subtext {
+    font-family: "interstate", sans-serif; 
+    color:rgb(255, 255, 255);
+    font-size: min(2.4vmax, 12px);
+    padding: 0vw 1vw 1vw 1vw;
 }
 
 .home-header {
@@ -197,8 +203,6 @@
     top: 15vh;
     right: 5%;
     transition: 0.3s;
-    /* width: 30vw; */
-    /* font-size: 3vw; */
     text-decoration: none;
 }
 
@@ -292,47 +296,6 @@
     text-align: left;
 }
 
-.graphicdesign-section {
-    color: rgb(235, 235, 235);
-    font-size: 60px;
-}
-
-.white-lefty-about-text {
-    color: rgb(235, 235, 235);
-    font-size: 20px;
-}
-
-.white-header-text {
-    color: rgb(235, 235, 235);
-    font-size: 60px;
-}
-
-.white {
-    color:rgb(235, 235, 235);
-}
-
-.homeText {
-    text-align: "left";
-    color: rgb(128, 128, 128);
-}
-
-.social-link {
-    color: rgb(222, 222, 222) 
-}
-
-.social-link:hover {
-    color: rgb(147, 75, 75);
-}
-
-.about-me-title {
-    color: rgb(235, 235, 235);
-    font-size: 40px;
-}
-
-.bodyText {
-    color: rgb(102, 102, 102);
-}
-
 .banner {
     padding: "10px";
     position: relative;
@@ -367,37 +330,8 @@
     padding-right: '100px';
 }
 
-.coverImg {
-    height: 200px;
-    width: 200px;
-}
-
 html {
     height: 100%;
-}
-
-.about-container {
-    height: 100%;
-    position: relative;
-    background-position: top center;
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
-
-.code-container {
-    height: 100%;
-    position: relative;
-    background-position: top center;
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
-
-.graphicdesign-container {
-    height: 100%;
-    position: relative;
-    background-position: top center;
-    padding-bottom: 30px;
-    padding-top: 30px;
 }
 
 .footer-item-container {
@@ -411,32 +345,6 @@ html {
     flex-flow: row wrap;   
     padding-left: 0%; 
     padding-right: 0%; 
-
-}
-
-.home-top {
-    z-index: 1;
-    position: relative;
-}
-
-.home-bottom {
-    z-index: 1;
-    position: relative;
-}
-
-.contact-card {
-    z-index: 1;
-    position: relative;
-}
-
-.tabset {
-    z-index: 2;
-    color: rgb(207, 207, 207);
-    background-color: #212528;
-}
-
-.pagetitle {
-    font-size: 50px;
 }
 
 .input-container{

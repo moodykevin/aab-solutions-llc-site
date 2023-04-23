@@ -8,6 +8,7 @@ import mri4 from './imgs/mri4.png'
 
 
 const home = () => {
+    document.title = "Commercial - A.A.B. Solutions L.L.C."
     return(
         <Container fluid className='home-container'>
             <Container fluid className="container-fluid homepage-bgimage">

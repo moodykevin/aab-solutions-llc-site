@@ -13,6 +13,7 @@ import wwf from './imgs/wwf.png'
 
 
 const about = () => {
+    document.title = "About - A.A.B. Solutions L.L.C."
     return(
         <Container fluid className='home-container'>
             <Container fluid className="container-fluid aboutpage-bgimage">

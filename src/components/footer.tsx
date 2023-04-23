@@ -9,7 +9,7 @@ const Footer = () => {
         <div style={{ backgroundColor: 'rgb(41,58,97)', color : 'rgb(240,240,240)'}}>
             <br></br>
                 <Container>
-                    <a href="/"><img src={primary_white_red} alt="" width="330" height="110"></img></a>
+                    <a href="/"><img src={primary_white_red} alt="" width="360" height="120"></img></a>
                 </Container>
                 <br></br>
 
