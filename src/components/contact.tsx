@@ -27,8 +27,9 @@ const Contact = () => {
                         <Container className="about-img-container">
                           <br></br>
                           <h2 className="contact-section-header">Contact</h2>
-                          <h2 className="contact-section-text">120 Bunker Hill Road</h2>
-                          <h2 className="contact-section-text">Canton, CT 06010</h2>
+                          <h2 className="contact-section-text">2686 North Federal Highway</h2>
+                          <h2 className="contact-section-text">Unit 21</h2>
+                          <h2 className="contact-section-text">Boynton Beach, FL 33435</h2>
                           <a href="tel:860-952-9090"><h2 className="contact-section-text" >860-952-9090</h2></a>
                           <br></br>
                           <p className="contact-section-text">Send us a message or call us about your project. All inquiries will be responded to within 24 hours. </p>
