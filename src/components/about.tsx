@@ -50,10 +50,7 @@ const about = () => {
                     <img src={wwf} alt="" className="charity-pic"></img>
                     </Container>
             </Container>
-            
-
-
-            <Container className="home-pic-end">
+            <Container className="bottom-pic-container">
                 <img src={mri2} alt="" className="home-pic"></img>
                 <img src={mri3} alt="" className="home-pic"></img>
                 <img src={mri1} alt="" className="home-pic"></img>

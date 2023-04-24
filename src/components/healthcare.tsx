@@ -16,7 +16,7 @@ const home = () => {
                     <h1 className="header-text"> Healthcare </h1>
                 </div>
             </Container>
-            <Container className="home-pic-end">
+            <Container className="bottom-pic-container">
                 <img src={mri2} alt="" className="home-pic"></img>
                 <img src={mri3} alt="" className="home-pic"></img>
                 <img src={mri1} alt="" className="home-pic"></img>
