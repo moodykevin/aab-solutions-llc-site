@@ -109,10 +109,12 @@
 
   .homepage-bgimage2 {
     background: url("./imgs/mri_room_2_blue.png");
-    height: 40vh;
+    height: 44vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80%;
+    /* margin-top: -40px;
+    margin-bottom: -40px; */
   }
 
   .servicespage-bgimage {
@@ -318,6 +320,8 @@
     color:rgb(255,255,255);
     text-decoration: none;
     font-family: "interstate", sans-serif; 
+    justify-content: center;
+    font-size: large;
 }
 
 .footer-link-text:hover {
@@ -335,16 +339,21 @@ html {
 }
 
 .footer-item-container {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 .footer-text-container {
     display: flex;
-    justify-content: center;
     flex-flow: row wrap;   
     padding-left: 0%; 
     padding-right: 0%; 
+}
+
+.logo-container {
+    height: min(120px, 25vw);
+    display: flex;
+    justify-content: center;
 }
 
 .input-container{
@@ -356,6 +365,7 @@ html {
     background-color: rgb(230,230,230);
     width:40vw;
 }
+
 .input-container label{
 	position:absolute;
 	top:-16px;
@@ -365,6 +375,7 @@ html {
     transition: all 0.5s ease-in-out;
 	
 }
+
 .input-container input{ 
   border:0;
   border-bottom:1px solid var(--primary-blue);  
@@ -376,6 +387,7 @@ html {
   border-radius: 4px;
   color: var(--primary-blue);
 }
+
 .input-container input:focus{ 
  border:none;	
  outline:none;
