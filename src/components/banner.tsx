@@ -5,14 +5,14 @@ import "./styles.css"
 const Banner = () => {
     return (
         <div className="banner">
-            <Container>
-            <Navbar className='colorBanner' expand="lg" variant="light" id="banner" style={{ padding: "0px 0px 0px 0px" }} >
+            <Container style={{paddingBottom:"20px"}}>
+            <Navbar className='colorBanner' expand="lg" variant="light" id="banner" style={{ padding: "0px 0px 0px 0px", justifyContent:"center"}} >
                 <Navbar.Brand href="/" >
                 </Navbar.Brand>
                 <Navbar.Brand href="/" >
-                    <h1><img src={primary_wide} alt="" width="285" height="95"></img></h1>
+                    <h1><img src={primary_wide} alt="" width="270" height="90"></img></h1>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" style={{margin:"auto" }}/>
                 <Navbar.Collapse className="justify-content-end" style={{ padding: "15px" }}>
                     <Nav>
                         <Nav.Link className="banner-link" href="/">

@@ -82,7 +82,7 @@
 .dual-header {
     font-family: "interstate", sans-serif; 
     color: var(--primary-red);
-    font-size: 36px;
+    font-size: min(36px, 9vw);
     text-align: left;
 }
 
@@ -94,7 +94,7 @@
 .homepage-bgimage {
     background: url("./imgs/mri_room_1.png");
     position: relative;
-    height: 50vw;
+    height: min(max(50vw, 250px),500px);
     background-position: center;
     background-size: cover;
   }
@@ -162,7 +162,7 @@
     font-family: "interstate", sans-serif; 
     color: var(--primary-red);
     position: relative;
-    font-size: 40px;
+    font-size: min(40px, 9vw);
     padding-left: 10vw;
     padding-right: 10vw;
     text-align: left;
@@ -242,7 +242,7 @@
     font-family: "interstate", sans-serif; 
     color: var(--primary-red);
     position: relative;
-    font-size: 40px;
+    font-size: min(40px, 9vw);
     padding-left: 10vw;
     padding-right: 10vw;
     text-align: left;
@@ -251,7 +251,7 @@
     font-family: "interstate", sans-serif; 
     color: var(--primary-red);
     position: relative;
-    font-size: 28px;
+    font-size: min(28px, 9vw);
     padding-left: 2vw;
     padding-right: 2vw;
     text-align: left;
