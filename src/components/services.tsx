@@ -40,7 +40,7 @@ const home = () => {
                 <Row>
                         <Col md={6} className="dual-container">
                             <h2 className="dual-header"> Lorem Ipsum </h2>
-                            <p className="dual-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at 
+                            <p className="main-text" style={{textAlign:"left", fontSize:"min(14pt, 2.7vw)", padding:"0"}}> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at 
                             viverra felis, sit amet eleifend sapien. Aenean id mi sed velit vestibulum aliquam vitae sed lacus. 
                             Phasellus pretium odio quis augue hendrerit interdum. Facilisis igula accumsan. Sed nec libero sem.
                             Donda porttitor nunc neque, gravida fringilla velit rhoncus et. Vivamus vehicula accumsan turpis, 

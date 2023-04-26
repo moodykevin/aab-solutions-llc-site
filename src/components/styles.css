@@ -109,10 +109,10 @@
 
   .homepage-bgimage2 {
     background: url("./imgs/mri_room_2_blue.png");
-    height: 44vh;
+    height: min(300px, 80vw);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 80%;
+    width: 80vw;
   }
 
   .servicespage-bgimage {
@@ -147,19 +147,22 @@
     font-family: "interstate", sans-serif; 
     font-style: italic;
     color:rgb(255, 255, 255);
-    font-size: min(3.4vmax, 50px);
+    font-size: min(6vw, 50px);
     padding: 1vw;
 }
 
 .header-subtext {
     font-family: "interstate", sans-serif; 
+    font-weight: 700;
     color:rgb(255, 255, 255);
-    font-size: min(2.4vmax, 12px);
+    font-size: min(3vw, 16px);
     padding: 0vw 1vw 1vw 1vw;
 }
 
 .home-header {
     font-family: "interstate", sans-serif; 
+    font-weight: 700;
+    font-style: normal;
     color: var(--primary-red);
     position: relative;
     font-size: min(40px, 9vw);
@@ -172,19 +175,21 @@
     font-family: "interstate", sans-serif; 
     color:rgb(235, 235, 235);
     font-size: 20px;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    width: max(200px, 40vw);
+    margin: auto;
+    text-align: center;
     position: relative;
-    top: 10vh;
+    top: min(6vw, 200px);
 }
 
 .home-button {
-    font-family: "interstate", sans-serif; 
+    font-family: "interstate", sans-serif;
+    font-weight: 700; 
     position: relative;
     padding: 10px;
     background: var(--primary-red);
     color: rgb(255, 255, 255);
-    top: 15vh;
+    top: min(10vw, 240px);
     transition: 0.3s;
     text-decoration: none;
 }
@@ -195,7 +200,8 @@
 }
 
 .services-button {
-    font-family: "interstate", sans-serif; 
+    font-family: "interstate", sans-serif;
+    font-weight: 700; 
     position: relative;
     padding: 10px;
     background: var(--primary-blue);
@@ -211,20 +217,11 @@
     color: var(--primary-blue)
 }
 
-.home-section-header {
-    font-family: "interstate", sans-serif; 
-    color: var(--primary-red);
-    position: relative;
-    font-size: 28px;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    text-align: left;
-}
-
 .main-text {
+    color: rgb(55, 55, 55);
     padding-left: 10vw;
     padding-right: 10vw;
-    font-size: large;
+    font-size: min(15pt, 4vw);
     text-align: left;
 }
 
@@ -307,7 +304,7 @@
     color: var(--primary-red);
     font-size: 20px;
     font-family: "interstate", sans-serif; 
-
+    font-weight: 700;
 }
 
 .banner-link:hover {
@@ -317,7 +314,8 @@
 .footer-link-text {
     color:rgb(255,255,255);
     text-decoration: none;
-    font-family: "interstate", sans-serif; 
+    font-family: "interstate", sans-serif;
+    font-weight: 700; 
     justify-content: center;
     font-size: large;
 }

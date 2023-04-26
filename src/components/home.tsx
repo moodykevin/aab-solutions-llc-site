@@ -30,9 +30,10 @@ const home = () => {
             <br></br>
             <Container fluid>
                 <div className="container-fluid homepage-bgimage2">
-                    <h2 className='home-text'>Our dedicated construction professionals have over 35 years of extensive 
+                    <h2 className='home-text' style={{fontWeight:"700"}}>Our dedicated construction professionals have over 35 years of extensive 
                     experience in healthcare & commercial building.</h2>
                     <a href='/services' className='home-button'>Click To View Our Services</a>
+                    
                 </div>
             </Container>
             <br></br>
