@@ -107,20 +107,29 @@
     background-size: cover;
   }
 
+  .servicespage-bgimage {
+    background: url("./imgs/waiting.png");
+    position: relative;
+    height: 20vw;
+    background-position: center;
+    background-size: cover;
+    background-position-y: 58%;
+}
+
   .homepage-bgimage2 {
-    background: url("./imgs/mri_room_2_blue.png");
+    background: url("./imgs/blue_background_bars.png");
     height: min(300px, 80vw);
     background-position: center;
     background-repeat: no-repeat;
     width: 80vw;
   }
 
-  .servicespage-bgimage {
-    background: url("./imgs/exterior_red_1.png");
-    height: 40vh;
+  .servicespage-bgimage2 {
+    background: url("./imgs/background_red_building.png");
+    height: min(300px, 80vw);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 80%;
+    width: 80vw;
   }
 
   .aboutpage-bgimage2 {
@@ -206,8 +215,7 @@
     padding: 10px;
     background: var(--primary-blue);
     color: rgb(255, 255, 255);
-    top: 15vh;
-    right: 5%;
+    top: min(10vw, 240px);
     transition: 0.3s;
     text-decoration: none;
 }

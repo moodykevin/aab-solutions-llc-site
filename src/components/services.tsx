@@ -11,7 +11,7 @@ const home = () => {
     document.title = "Services - A.A.B. Solutions L.L.C."
     return(
         <Container fluid className='home-container'>
-            <Container fluid className="container-fluid aboutpage-bgimage">
+            <Container fluid className="container-fluid servicespage-bgimage">
             </Container>
             <Container fluid className="about-section-container">
                 <h2 className="about-header"> Services </h2>
@@ -26,36 +26,34 @@ const home = () => {
                 high-quality services to all clients.</p>
             </Container>
             <Container fluid>
-                <div className="container-fluid servicespage-bgimage">
-                    <h2 className='home-text'>Company leaders have proven expertise in project management, scheduling, 
-                    job cost accounting, site supervision, quality control, building commissioning and project closeout.</h2>
+                <div className="container-fluid servicespage-bgimage2">
+                    <h2 className='home-text' style={{fontWeight:"700"}}>Company leaders have proven expertise in project management, scheduling, 
+                    job cost accounting, quality control, and project closeout.</h2>
                     <Container fluid style={{ display:"flex" , justifyContent:"center" }}>
-                    <a href='/healthcare' className='services-button' style={{right:"2%"}}>Healthcare Services</a>
-                    <a href='/commercial' className='services-button' style={{left:"2%"}}>Commercial Services</a>
+                    <a href='/healthcare' className='services-button' style={{right:"2%"}}>Healthcare </a>
+                    <a href='/commercial' className='services-button' style={{left:"2%"}}>Commercial </a>
                     </Container>
                 </div>
             </Container>
             <br></br>
             <Container className="dual">
                 <Row>
-                        <Col md={6} className="dual-container">
+                        <Col md={12} lg={6} className="dual-container">
                             <h2 className="dual-header"> Lorem Ipsum </h2>
-                            <p className="main-text" style={{textAlign:"left", fontSize:"min(14pt, 2.7vw)", padding:"0"}}> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at 
+                            <p className="main-text" style={{textAlign:"left", fontSize:"min(14pt, 3vw)", padding:"0"}}> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at 
                             viverra felis, sit amet eleifend sapien. Aenean id mi sed velit vestibulum aliquam vitae sed lacus. 
-                            Phasellus pretium odio quis augue hendrerit interdum. Facilisis igula accumsan. Sed nec libero sem.
-                            Donda porttitor nunc neque, gravida fringilla velit rhoncus et. Vivamus vehicula accumsan turpis, 
-                            at luctus sem lacinia a.
+                            Phasellus pretium odio quis augue hendrerit interdum. Facilisis igula accumsan. 
                             <br></br><br></br>
                             Mauris egestas etortor vitae venenatis. 
                             Integer eros nibh, faucibus id odio in, suscipit pharetra nunc. Morbi ac urna et leo scelerisque 
                             faucibus nec in libero. Mauris congue enim sed nisl viverra, sed viverra massa tincidunt. In orci nibh, 
-                            consectetur id bibendum id, commodo quis eros. Sed id quam nunc. Sed ac nunc vitae nunc consequat euismod.
+                            consectetur id bibendum id, commodo quis eros. Sed id quam nunc. 
                             <br></br><br></br>
                             Fusce dapibus ligula id pulvinar vulputate. Ut volutpat dolor 
                             mauris, auctor blandit justo rhoncus vitae. Vestibulum id orci ligula. Pellentesque habitant morbi tristique 
                             senectus et netus et malesuada fames ac turpis egestas.</p>
                         </Col>
-                        <Col md={6} className="dual-pic-container"></Col>
+                        <Col md={12} lg={6}className="dual-pic-container"></Col>
                     </Row>
             </Container>
             <br></br>
