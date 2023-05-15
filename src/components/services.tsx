@@ -40,18 +40,16 @@ const home = () => {
                 <Row>
                         <Col md={12} lg={6} className="dual-container">
                             <h2 className="dual-header"> Lorem Ipsum </h2>
-                            <p className="main-text" style={{textAlign:"left", fontSize:"min(14pt, 3vw)", padding:"0"}}> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at 
-                            viverra felis, sit amet eleifend sapien. Aenean id mi sed velit vestibulum aliquam vitae sed lacus. 
-                            Phasellus pretium odio quis augue hendrerit interdum. Facilisis igula accumsan. 
+                            <p className="main-text" style={{textAlign:"left", fontSize:"min(14pt, 3vw)", padding:"0"}}> 
+                            For our commercial clients, we offer a wide range of services, including site selection, design and construction, and 
+                            project management. We understand that commercial construction projects require careful planning and execution to ensure 
+                            that they meet our clients' unique needs. That's why we work closely with our commercial clients to develop a customized 
+                            plan that meets their goals and budget.
                             <br></br><br></br>
-                            Mauris egestas etortor vitae venenatis. 
-                            Integer eros nibh, faucibus id odio in, suscipit pharetra nunc. Morbi ac urna et leo scelerisque 
-                            faucibus nec in libero. Mauris congue enim sed nisl viverra, sed viverra massa tincidunt. In orci nibh, 
-                            consectetur id bibendum id, commodo quis eros. Sed id quam nunc. 
-                            <br></br><br></br>
-                            Fusce dapibus ligula id pulvinar vulputate. Ut volutpat dolor 
-                            mauris, auctor blandit justo rhoncus vitae. Vestibulum id orci ligula. Pellentesque habitant morbi tristique 
-                            senectus et netus et malesuada fames ac turpis egestas.</p>
+                            In the healthcare sector, we offer specialized services to ensure that our clients' facilities meet the highest standards
+                             of safety and functionality. Our team has extensive experience in healthcare construction and can handle everything 
+                             from new construction to renovation and remodeling of existing facilities. We understand the unique needs of healthcare 
+                             facilities and are committed to delivering exceptional results that meet our clients' needs. </p>
                         </Col>
                         <Col md={12} lg={6}className="dual-pic-container"></Col>
                     </Row>
