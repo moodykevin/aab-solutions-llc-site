@@ -102,9 +102,6 @@ const Carousel1 = () => (
         autoPlayInterval={2000}
         autoPlayDirection="rtl"
         autoPlayStrategy="action"
-        
-        // onSlideChange={this.onSlideChange}
-        // onSlideChanged={this.onSlideChanged}
     />
 );
 
@@ -117,31 +114,6 @@ const Carousel1 = () => (
         <div style={{
           padding: "0 20px"
         }}>
-          {/* {/* <Carousel
-            data={data}
-            time={20000}
-            width="850px"
-            height="500px"
-            captionStyle={captionStyle}
-            radius="10px"
-            slideNumber={true}
-            slideNumberStyle={slideNumberStyle}
-            captionPosition="bottom"
-            automatic={true}
-            dots={true}
-            pauseIconColor="white"
-            pauseIconSize="40px"
-            slideBackgroundColor="darkgrey"
-            slideImageFit="cover"
-            thumbnails={true}
-            thumbnailWidth="100px"
-            style={{
-              textAlign: "center",
-              maxWidth: "850px",
-              maxHeight: "500px",
-              margin: "40px auto",
-            }}
-          /> */}
         </div>
       </div>
       <br></br><br></br><br></br><br></br><br></br><br></br>

@@ -11,14 +11,12 @@ const home = () => {
     document.title = "Home - A.A.B. Solutions L.L.C."
     return(
         <Container fluid className='home-container'>
-            <Container fluid className="container-fluid homepage-bgimage">
-            <br></br>
-                <div className="header-container">
+                    <div className="header-container">
                     <h1 className="header-text"> "Together, We Can Build Anything." </h1>
-                    <p className="header-subtext" > Design Building, General Contracting, & Construction Management </p>
+                    <p className="header-subtext" > Design Build, General Contracting, & Construction Management </p>
                 </div>
+            <Container fluid className="container-fluid homepage-bgimage">
             </Container>
-            <br></br>
             <Container fluid className="home-section-container">
                 <h2 className="home-header"> Building Projects from Coast to Coast </h2>
                 <p className="main-text"> Our team of professionals is dedicated to providing the highest quality 
@@ -32,7 +30,7 @@ const home = () => {
                 <div className="container-fluid homepage-bgimage2">
                     <h2 className='home-text' style={{fontWeight:"700"}}>Our dedicated construction professionals have over 35 years of extensive 
                     experience in healthcare & commercial building.</h2>
-                    <a href='/services' className='home-button'>Click To View Our Services</a>
+                    <a href='/services' className='home-button'>Our Services</a>
                 </div>
             </Container>
             <br></br>

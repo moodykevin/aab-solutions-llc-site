@@ -39,7 +39,7 @@ const home = () => {
             <Container className="dual">
                 <Row>
                         <Col md={12} lg={6} className="dual-container">
-                            <h2 className="dual-header"> Lorem Ipsum </h2>
+                            <h2 className="dual-header"> Healthcare & Commercial </h2>
                             <p className="main-text" style={{textAlign:"left", fontSize:"min(14pt, 3vw)", padding:"0"}}> 
                             For our commercial clients, we offer a wide range of services, including site selection, design and construction, and 
                             project management. We understand that commercial construction projects require careful planning and execution to ensure 
