@@ -1,6 +1,6 @@
 // import { Carousel } from 'react-carousel-minimal';
-import goodwill from './imgs/goodwill.png'
-import red from './imgs/red.png'
+import goodwill from './imgs/fujifilm.png'
+import red from './imgs/ge_healthcare.png'
 
 import "react-alice-carousel/lib/alice-carousel.css";
 import AliceCarousel from 'react-alice-carousel';

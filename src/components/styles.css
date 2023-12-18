@@ -46,14 +46,14 @@
     padding: 10px;
 }
 
-.charity-pic-container {
+.vendor-pic-container {
     height: 20vw;
     width: 40vw;
     display: flex;
     justify-content: center;
 }
 
-.charity-pic {
+.vendor-pic {
     height: 100%;
     padding: 10%;
     display: flex;
@@ -282,7 +282,7 @@
     font-size: 23px;
 }
 
-.charity-section-header {
+.vendor-section-header {
     font-family: "interstate", sans-serif; 
     color: var(--primary-red);
     position: relative;
