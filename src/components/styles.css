@@ -234,6 +234,14 @@
     text-align: left;
 }
 
+.bullet-text {
+    color: rgb(85, 85, 85);
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-size: min(11pt, 2vw);
+    text-align: left;
+}
+
 .home-section-container {
     padding:10px;
     align-content: left;

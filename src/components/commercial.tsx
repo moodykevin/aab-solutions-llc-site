@@ -29,10 +29,9 @@ const home = () => {
                         <Container>
                         <Container className="about-img-container">
                         <h2 className="about-section-header"> Speed and Efficiency </h2>
-                        <p className="about-section-text"> In the commercial sector, speed and efficiency are essential. That's 
-                        why we have developed a reputation for completing projects quickly and efficiently, without 
-                        compromising on quality. We understand that commercial facilities need to be operational and accessible 
-                        to customers throughout the construction process. 
+                        <p className="about-section-text"> We understand that commercial facilities need to be operational and accessible 
+                        to customers throughout the construction process. Our experience includes retail, hospitality, institutional,
+                        government and academics.
                             <br></br><br></br>
                             We work closely with our clients to develop a timeline that 
                             minimizes disruption and ensures that the project is completed on time and within budget. 

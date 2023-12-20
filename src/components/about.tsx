@@ -18,10 +18,14 @@ const about = () => {
             </Container>
             <Container fluid className="about-section-container">
                 <h2 className="about-header"> About Us</h2>
-                <p className="main-text"> Our company is a leader in the construction industry, with a focus on healthcare
-                 and commercial zones. We have a team of experienced professionals who specialize in delivering high-quality, 
-                 cost-effective projects that are completed on time. Our commitment to excellence is reflected in every aspect 
-                 of our work, from project planning and design to construction and maintenance.</p>
+                <p className="main-text"> All Access Building Solutions LLC. specializes in a comprehensive range of
+                new construction services, offering turnkey design build, franchise development, and commercial additions
+                & upfits. With a decade of dedicated expertise, we have successfully developed and delivered over one million
+                square feet in cutting-edge medical and radiology spaces. Our seasoned team excels not only in constructing new
+                facilities but also in executing renovations for diverse sectors, including retail, hospitality, institutional,
+                government, and academic projects. Trust us to bring innovation, precision, and excellence to every aspect of your
+                construction needs.
+</p>
             </Container>
             <br></br><br></br>
             <Container fluid >
@@ -29,11 +33,20 @@ const about = () => {
                         <br></br>
                         <Container>
                         <Container className="about-img-container">
-                        <h2 className="about-section-header">Our History</h2>
-                        <p className="about-section-text"> All Access Building Solutions LLC. is a leading construction company that specializes
-                        in healthcare and commercial applications. <br></br><br></br>
-                        We have extensive experience in healthcare contracting, working on a wide range of projects from 
-                        small clinics to large hospitals.</p>
+                        <h2 className="about-section-header">Why Us?</h2>
+                        <p className="about-section-text">
+                        <ol>
+                            <li>Our team of highly experienced professionals has years of ground up vertical construction experience, with the tools to hit on-time opening dates.</li>
+                            <br></br>
+                            <li>Our project cost analysis and administration means that our clients receive the highest level of competency from the general contractor role to deliver projects within your budget needs.</li>
+                            <br></br>
+                            <li>Our service model enables us to align our resources to meet each client's need, which ensures clients receive the most efficient solution with the necessary expertise and experience required to get the job done.</li>
+                            <br></br>
+                            <li>AABS offers construction management services to help clients maximize their investment. We embrace a collaborative team approach at every step of development.</li>
+                            <br></br>
+                            <li>Our Company and team of professionals are work zone safety first and therefore can be innovative, strategic, and complete all aspects of the project while providing the most accurate solution to our client's issues.</li>
+                        </ol>
+                        </p>
                         </Container>
                         </Container>                        
                     <br></br>

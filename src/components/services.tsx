@@ -19,7 +19,7 @@ const home = () => {
                 particularly medical imaging facilities, while also offering commercial services. Our expertise 
                 in healthcare construction allows us to provide specialized services that meet the specific needs 
                 and regulations of our industry. We offer a wide range of construction services, including 
-                pre-construction planning, design, construction, and project management. <br></br><br></br>Additionally, we pride 
+                pre-construction planning, design, permitting, construction, and project management. <br></br><br></br>Additionally, we pride 
                 ourselves on completing construction projects quickly, which may be particularly important in 
                 the healthcare industry where delays could have significant consequences. With our specialization 
                 in healthcare and efficient construction processes, we are well-equipped to provide 
@@ -39,17 +39,48 @@ const home = () => {
             <Container className="dual">
                 <Row>
                         <Col md={12} lg={6} className="dual-container">
-                            <h2 className="dual-header"> Healthcare & Commercial </h2>
-                            <p className="main-text" style={{textAlign:"left", fontSize:"min(14pt, 3vw)", padding:"0"}}> 
-                            For our commercial clients, we offer a wide range of services, including site selection, design and construction, and 
-                            project management. We understand that commercial construction projects require careful planning and execution to ensure 
-                            that they meet our clients' unique needs. That's why we work closely with our commercial clients to develop a customized 
-                            plan that meets their goals and budget.
-                            <br></br><br></br>
-                            In the healthcare sector, we offer specialized services to ensure that our clients' facilities meet the highest standards
-                             of safety and functionality. Our team has extensive experience in healthcare construction and can handle everything 
-                             from new construction to renovation and remodeling of existing facilities. We understand the unique needs of healthcare 
-                             facilities and are committed to delivering exceptional results that meet our clients' needs. </p>
+                            <h2 className="dual-header"> Our Process </h2>
+                            <h1 className="main-text" style={{textAlign:"left", fontSize:"min(14pt, 4vw)", padding:"0"}}> 
+                            <br></br>
+                            Design Build
+                            </h1>
+                            <p className="bullet-text" style={{textAlign:"left", padding:"0"}}> 
+                            <ul>
+                                <li>Collaborative Working Relationships with Consultants, Suppliers, & Subcontractors </li>
+                                <li>Total Quality Assurance</li>
+                                <li>Project Updates and Check-Ins</li>
+                                <li>Critical Pathway to On-Time Delivery</li>
+                                <li>Resolute Focus on Safety</li>
+                            </ul>
+                            </p>
+                            <h1 className="main-text" style={{textAlign:"left", fontSize:"min(16pt, 4vw)", padding:"0"}}> 
+                            General Contracting
+                            </h1>
+                            <p className="bullet-text" style={{textAlign:"left", padding:"0"}}> 
+                            <ul>
+                                <li>Pre-Construction Services</li>
+                                <li>Bid Management</li>
+                                <li>Comprehensive Estimating & Scheduling</li>
+                                <li>Project Cost Analysis</li>
+                                <li>Subcontractor Management</li>
+                                <li>Closeout Management</li>
+                                <li>Warranty</li>
+                            </ul>
+                            </p>
+                            <h1 className="main-text" style={{textAlign:"left", fontSize:"min(16pt, 4vw)", padding:"0"}}> 
+                            Construction Management
+                            </h1>
+                            <p className="bullet-text" style={{textAlign:"left", padding:"0"}}> 
+                            <ul>
+                                <li>Design Consultations</li>
+                                <li>Value Engineering</li>
+                                <li>Maintain Schedules</li>
+                                <li>Project Cost Administration</li>
+                                <li>Property Administration</li>
+                                <li>Safety Logistics and Implementation</li>
+                                <li>Budget Tracking and Scheduling</li>
+                            </ul>
+                            </p>
                         </Col>
                         <Col md={12} lg={6}className="dual-pic-container"></Col>
                     </Row>
