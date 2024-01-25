@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.297fd573.css",
+    "main.js": "/static/js/main.81a0e000.js",
+    "static/media/interior_lighting.jpeg": "/static/media/interior_lighting.13973f6f3b7080f0521f.jpeg",
+    "static/media/exterior_walls.jpeg": "/static/media/exterior_walls.acba016acc00dd90875e.jpeg",
+    "static/media/cement_pour.jpeg": "/static/media/cement_pour.3d303fa4136d3efa4771.jpeg",
+    "static/media/carwash_bays.jpeg": "/static/media/carwash_bays.0eee77db0ceb50442488.jpeg",
+    "static/media/carwash_exterior.jpeg": "/static/media/carwash_exterior.812ea62f91e219f91d22.jpeg",
+    "static/media/mri4.png": "/static/media/mri4.147b4ea41294aad55dc9.png",
+    "static/media/mri3.png": "/static/media/mri3.4256cf290a3a9bf8a673.png",
+    "static/media/exterior_constuction.jpeg": "/static/media/exterior_constuction.98ae1108a650acff1c57.jpeg",
+    "static/media/mri_room_1.png": "/static/media/mri_room_1.f0db288cacfa6ae81ecb.png",
+    "static/media/mri_room_2.png": "/static/media/mri_room_2.ad88388e7c835e0bece8.png",
+    "static/media/internal_work.jpeg": "/static/media/internal_work.16834babef5d9203ff2e.jpeg",
+    "static/media/mri2.png": "/static/media/mri2.c0bc4e6ecdd1581b1888.png",
+    "static/media/waiting.png": "/static/media/waiting.28f95c4a00288b5121e3.png",
+    "static/media/hotel_room.jpeg": "/static/media/hotel_room.aecad81b71a93b2a34d7.jpeg",
+    "static/media/hotel_lobby.jpg": "/static/media/hotel_lobby.31d1e4c7acaa3f50bd9f.jpg",
+    "static/media/clay_ground.jpeg": "/static/media/clay_ground.00b622691cad06f7baab.jpeg",
+    "static/media/aab_fencing.jpeg": "/static/media/aab_fencing.f96bbf448e40bbaa6b16.jpeg",
+    "static/media/exterior_crane.jpeg": "/static/media/exterior_crane.91c782b25d4fcee8bb14.jpeg",
+    "static/media/carwash_interior.jpeg": "/static/media/carwash_interior.7f6548b5c5de04db1332.jpeg",
+    "static/media/hotel_work.jpeg": "/static/media/hotel_work.443ced39347074c2968a.jpeg",
+    "static/media/interior_ventilation.jpeg": "/static/media/interior_ventilation.ad3219a47ef2125c630d.jpeg",
+    "static/media/mri1.png": "/static/media/mri1.52eecaf55526d5fb71dd.png",
+    "static/media/background_red_building.png": "/static/media/background_red_building.22cc260d48323fb09684.png",
+    "static/media/blue_background_bars.png": "/static/media/blue_background_bars.e61c39c2b66dc0fb4da1.png",
+    "static/media/ge_healthcare.png": "/static/media/ge_healthcare.dc4af87ec3d9499ad444.png",
+    "static/media/AllAccessBuilding_logo_wide_white_red.png": "/static/media/AllAccessBuilding_logo_wide_white_red.dd5340d3233c2e47b3ff.png",
+    "static/media/AllAccessBuilding_logo_wide.png": "/static/media/AllAccessBuilding_logo_wide.e2d851fc2dba61b2dccf.png",
+    "static/media/fujifilm.png": "/static/media/fujifilm.8708bba13ed9a0d04e67.png",
+    "index.html": "/index.html",
+    "main.297fd573.css.map": "/static/css/main.297fd573.css.map",
+    "main.81a0e000.js.map": "/static/js/main.81a0e000.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.297fd573.css",
+    "static/js/main.81a0e000.js"
+  ]
+}
