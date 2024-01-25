@@ -6,7 +6,6 @@ import Services from './components/services';
 import Healthcare from './components/healthcare';
 import Commercial from './components/commercial';
 import Contact from './components/contact';
-import Test from './components/test';
 import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import './App.css';
 import Footer from './components/footer';
@@ -23,7 +22,6 @@ function App() {
           <Route path="/healthcare" element={<Healthcare />}></Route>
           <Route path="/commercial" element={<Commercial />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
-          <Route path="/test" element={<Test />}></Route>
         </Routes> 
         <Footer />
       </div>

@@ -69,7 +69,7 @@
 
 .dual-pic-container{
     min-height: 40vw;
-    background: url("./imgs/waiting.png");
+    background: url("./imgs/interior_ventilation.jpeg");
     background-repeat: no-repeat;
     background-size: 200%;
     background-position: 50%;
@@ -92,7 +92,7 @@
 }
 
 .homepage-bgimage {
-    background: url("./imgs/mri_room_1.png");
+    background: url("./imgs/exterior_constuction.jpeg");
     position: relative;
     height: min(max(50vw, 250px),500px);
     background-position: center;
@@ -100,21 +100,37 @@
   }
 
   .aboutpage-bgimage {
-    background: url("./imgs/mri_room_1.png");
+    background: url("./imgs/aab_fencing.jpeg");
     position: relative;
-    height: 20vw;
+    height: 40vw;
     background-position: center;
     background-size: cover;
   }
 
   .servicespage-bgimage {
-    background: url("./imgs/waiting.png");
+    background: url("./imgs/interior_lighting.jpeg");
     position: relative;
-    height: 20vw;
+    height: 30vw;
     background-position: center;
     background-size: cover;
     background-position-y: 58%;
 }
+
+.healthcarepage-bgimage {
+    background: url("./imgs/mri_room_1.png");
+    position: relative;
+    height: 40vw;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .commercialpage-bgimage {
+    background: url("./imgs/clay_ground.jpeg");
+    position: relative;
+    height: 40vw;
+    background-position: center;
+    background-size: cover;
+  }
 
   .homepage-bgimage2 {
     background: url("./imgs/blue_background_bars.png");
@@ -318,14 +334,15 @@
 }
 
 .banner-link {
-    color: var(--primary-red);
+    color: var(--primary-blue);
     font-size: 20px;
     font-family: "interstate", sans-serif; 
     font-weight: 700;
+    margin-left: 10px;
 }
 
 .banner-link:hover {
-    color: var(--primary-blue);
+    color: var(--primary-red)
 }
 
 .footer-link-text {

@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap'
 
 
 const Contact = () => {
-  document.title = "Contact - A.A.B. Solutions L.L.C."
+  document.title = "Contact - All Access Building Solutions"
   function sendEmail(e: any) {
     e.preventDefault();
     emailjs.sendForm('AAB_Service', 'AAB_Email_Template', e.target, '_ZjNjzqvESvjOCGJB')

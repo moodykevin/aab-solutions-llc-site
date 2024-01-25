@@ -1,5 +1,5 @@
 import { Container, Col, Row } from 'react-bootstrap';
-import primary_white_red from './imgs/AllAccessBuilding_logo_wide_white_red.png';
+import primary_white_red from './assets/AllAccessBuilding_logo_wide_white_red.png';
 import "./styles.css";
 import { Link } from 'react-router-dom';
 

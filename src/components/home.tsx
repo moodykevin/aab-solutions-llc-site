@@ -1,14 +1,14 @@
 import { Container } from 'react-bootstrap'
 import mri1 from './imgs/mri1.png'
-import mri2 from './imgs/mri2.png'
+import internal_work from './imgs/internal_work.jpeg'
+import clay_ground from './imgs/clay_ground.jpeg'
 import mri3 from './imgs/mri3.png'
-import mri4 from './imgs/mri4.png'
 
 
 
 
 const home = () => {
-    document.title = "Home - A.A.B. Solutions L.L.C."
+    document.title = "Home - All Access Building Solutions"
     return(
         <Container fluid className='home-container'>
                     <div className="header-container">
@@ -43,10 +43,10 @@ const home = () => {
                 projects of all sizes and complexities, and we'll work tirelessly to ensure your project's success.</p>
             </Container>
             <Container className="bottom-pic-container">
-                <img src={mri2} alt="" className="home-pic"></img>
+                <img src={internal_work} alt="" className="home-pic"></img>
                 <img src={mri3} alt="" className="home-pic"></img>
+                <img src={clay_ground} alt="" className="home-pic"></img>
                 <img src={mri1} alt="" className="home-pic"></img>
-                <img src={mri4} alt="" className="home-pic"></img>
 
             </Container>
         </Container>

@@ -1,17 +1,17 @@
 import { Container } from 'react-bootstrap'
 import mri1 from './imgs/mri1.png'
-import mri2 from './imgs/mri2.png'
-import mri3 from './imgs/mri3.png'
-import mri4 from './imgs/mri4.png'
-import ge_healthcare from './imgs/ge_healthcare.png'
-import fujifilm from './imgs/fujifilm.png'
+import interior_ventilation from './imgs/interior_ventilation.jpeg'
+import hotel_lobby from './imgs/hotel_lobby.jpg'
+import cement_pour from './imgs/cement_pour.jpeg'
+import ge_healthcare from './assets/ge_healthcare.png'
+import fujifilm from './assets/fujifilm.png'
 
 
 
 
 
 const about = () => {
-    document.title = "About - A.A.B. Solutions L.L.C."
+    document.title = "About - All Access Building Solutions"
     return(
         <Container fluid className='home-container'>
             <Container fluid className="container-fluid aboutpage-bgimage">
@@ -42,7 +42,7 @@ const about = () => {
                             <br></br>
                             <li>Our service model enables us to align our resources to meet each client's need, which ensures clients receive the most efficient solution with the necessary expertise and experience required to get the job done.</li>
                             <br></br>
-                            <li>AABS offers construction management services to help clients maximize their investment. We embrace a collaborative team approach at every step of development.</li>
+                            <li>All Access Building Solutions offers construction management services to help clients maximize their investment. We embrace a collaborative team approach at every step of development.</li>
                             <br></br>
                             <li>Our Company and team of professionals are work zone safety first and therefore can be innovative, strategic, and complete all aspects of the project while providing the most accurate solution to our client's issues.</li>
                         </ol>
@@ -61,10 +61,10 @@ const about = () => {
                     </Container>
             </Container>
             <Container className="bottom-pic-container">
-                <img src={mri2} alt="" className="home-pic"></img>
-                <img src={mri3} alt="" className="home-pic"></img>
+                <img src={interior_ventilation} alt="" className="home-pic"></img>
+                <img src={hotel_lobby} alt="" className="home-pic"></img>
                 <img src={mri1} alt="" className="home-pic"></img>
-                <img src={mri4} alt="" className="home-pic"></img>
+                <img src={cement_pour} alt="" className="home-pic"></img>
 
             </Container>
         </Container>

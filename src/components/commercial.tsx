@@ -1,17 +1,24 @@
 import { Container, Carousel } from 'react-bootstrap'
-import mri1 from './imgs/mri1.png'
-import mri2 from './imgs/mri2.png'
-import mri3 from './imgs/mri3.png'
-import mri4 from './imgs/mri4.png'
+import aab_fencing from './imgs/aab_fencing.jpeg'
+import carwash_bays from './imgs/carwash_bays.jpeg'
+import carwash_exterior from './imgs/carwash_exterior.jpeg'
+import cement_pour from './imgs/cement_pour.jpeg'
+import exterior_crane from './imgs/exterior_crane.jpeg'
+import hotel_lobby from './imgs/hotel_lobby.jpg'
+import hotel_room from './imgs/hotel_room.jpeg'
+import interior_lighting from './imgs/interior_lighting.jpeg'
+import interior_ventilation from './imgs/interior_ventilation.jpeg'
+import exterior_walls from './imgs/exterior_walls.jpeg'
+
 
 
 
 
 const home = () => {
-    document.title = "Commercial - A.A.B. Solutions L.L.C."
+    document.title = "Commercial - All Access Building Solutions"
     return(
         <Container fluid className='home-container'>
-            <Container fluid className="container-fluid aboutpage-bgimage">
+            <Container fluid className="container-fluid commercialpage-bgimage">
             </Container>
             <Container fluid className="about-section-container">
                 <h2 className="about-header"> Commercial </h2>
@@ -52,33 +59,38 @@ const home = () => {
             touch={true}
             >
                 <Carousel.Item>
-                    <img src={mri1} alt="" className="carousel-pic"></img>
+                    <img src={aab_fencing} alt="" className="carousel-pic"></img>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={mri2} alt="" className="carousel-pic"></img>
+                    <img src={carwash_bays} alt="" className="carousel-pic"></img>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={mri3} alt="" className="carousel-pic"></img>
+                    <img src={carwash_exterior} alt="" className="carousel-pic"></img>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={mri1} alt="" className="carousel-pic"></img>
+                    <img src={cement_pour} alt="" className="carousel-pic"></img>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={mri2} alt="" className="carousel-pic"></img>
+                    <img src={exterior_crane} alt="" className="carousel-pic"></img>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={mri3} alt="" className="carousel-pic"></img>
+                    <img src={hotel_lobby} alt="" className="carousel-pic"></img>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={hotel_room} alt="" className="carousel-pic"></img>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={interior_lighting} alt="" className="carousel-pic"></img>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={interior_ventilation} alt="" className="carousel-pic"></img>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={exterior_walls} alt="" className="carousel-pic"></img>
                 </Carousel.Item>
             </Carousel>
             </Container>
             <br></br>
-            
-            <Container className="bottom-pic-container">
-                <img src={mri2} alt="" className="home-pic"></img>
-                <img src={mri3} alt="" className="home-pic"></img>
-                <img src={mri1} alt="" className="home-pic"></img>
-                <img src={mri4} alt="" className="home-pic"></img>
-            </Container>
         </Container>
     )
 }

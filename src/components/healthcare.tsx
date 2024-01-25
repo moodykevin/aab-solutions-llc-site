@@ -4,15 +4,20 @@ import mri1 from './imgs/mri1.png'
 import mri2 from './imgs/mri2.png'
 import mri3 from './imgs/mri3.png'
 import mri4 from './imgs/mri4.png'
+import mri_room_1 from './imgs/mri_room_1.png'
+import mri_room_2 from './imgs/mri_room_2.png'
+import waiting from './imgs/waiting.png'
+
+
 
 
 
 
 const home = () => {
-    document.title = "Healthcare - A.A.B. Solutions L.L.C."
+    document.title = "Healthcare - All Access Building Solutions"
     return(
         <Container fluid className='home-container'>
-            <Container fluid className="container-fluid aboutpage-bgimage">
+            <Container fluid className="container-fluid healthcarepage-bgimage">
             </Container>
             <Container fluid className="about-section-container">
                 <h2 className="about-header"> Healthcare </h2>
@@ -54,31 +59,26 @@ const home = () => {
                     <img src={mri1} alt="" className="carousel-pic"></img>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={mri2} alt="" className="carousel-pic"></img>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img src={mri3} alt="" className="carousel-pic"></img>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img src={mri1} alt="" className="carousel-pic"></img>
+                    <img src={mri_room_1} alt="" className="carousel-pic"></img>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img src={mri2} alt="" className="carousel-pic"></img>
                 </Carousel.Item>
                 <Carousel.Item>
+                    <img src={mri_room_2} alt="" className="carousel-pic"></img>
+                </Carousel.Item>
+                <Carousel.Item>
                     <img src={mri3} alt="" className="carousel-pic"></img>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={mri4} alt="" className="carousel-pic"></img>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={waiting} alt="" className="carousel-pic"></img>
                 </Carousel.Item>
             </Carousel>
             </Container>
             <br></br>
-
-            <Container className="bottom-pic-container">
-                <img src={mri2} alt="" className="home-pic"></img>
-                <img src={mri3} alt="" className="home-pic"></img>
-                <img src={mri1} alt="" className="home-pic"></img>
-                <img src={mri4} alt="" className="home-pic"></img>
-
-            </Container>
         </Container>
     )
 }

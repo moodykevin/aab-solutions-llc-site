@@ -1,24 +1,23 @@
 import { Container, Row, Col } from 'react-bootstrap'
-import mri1 from './imgs/mri1.png'
-import mri2 from './imgs/mri2.png'
-import mri3 from './imgs/mri3.png'
+import aab_fencing from './imgs/aab_fencing.jpeg'
+import hotel_work from './imgs/hotel_work.jpeg'
+import carwash_interior from './imgs/carwash_interior.jpeg'
 import mri4 from './imgs/mri4.png'
 
 
 
 
 const home = () => {
-    document.title = "Services - A.A.B. Solutions L.L.C."
+    document.title = "Services - All Access Building Solutions"
     return(
         <Container fluid className='home-container'>
             <Container fluid className="container-fluid servicespage-bgimage">
             </Container>
             <Container fluid className="about-section-container">
                 <h2 className="about-header"> Services </h2>
-                <p className="main-text"> All Access Building Solutions L.L.C. specializes in healthcare construction, 
-                particularly medical imaging facilities, while also offering commercial services. Our expertise 
-                in healthcare construction allows us to provide specialized services that meet the specific needs 
-                and regulations of our industry. We offer a wide range of construction services, including 
+                <p className="main-text"> We specilize in healthcare construction and commercial applications. Our expertise 
+                in healthcare construction allows us to provide specialized services that meet your specific needs 
+                and industry regulations. We offer a wide range of construction services, including 
                 pre-construction planning, design, permitting, construction, and project management. <br></br><br></br>Additionally, we pride 
                 ourselves on completing construction projects quickly, which may be particularly important in 
                 the healthcare industry where delays could have significant consequences. With our specialization 
@@ -87,9 +86,9 @@ const home = () => {
             </Container>
             <br></br>
             <Container className="bottom-pic-container">
-                <img src={mri2} alt="" className="home-pic"></img>
-                <img src={mri3} alt="" className="home-pic"></img>
-                <img src={mri1} alt="" className="home-pic"></img>
+                <img src={aab_fencing} alt="" className="home-pic"></img>
+                <img src={carwash_interior} alt="" className="home-pic"></img>
+                <img src={hotel_work} alt="" className="home-pic"></img>
                 <img src={mri4} alt="" className="home-pic"></img>
 
             </Container>
