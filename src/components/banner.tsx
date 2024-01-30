@@ -2,6 +2,7 @@ import { Container, Navbar, Nav } from 'react-bootstrap'
 import primary_wide from './assets/AllAccessBuilding_logo_wide.png'
 import "./styles.css"
 
+
 const Banner = () => {
     return (
         <div className="banner">
