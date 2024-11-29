@@ -39,7 +39,7 @@ const Footer = () => {
             <Container>
                 <div className='text-center' style={{ justifyContent:'center', fontSize:"small", color:"rgb(220,220,220)" }}>
                     <br></br>
-                    © 2023, All Access Building Solutions L.L.C.
+                    © 2024, All Access Building Solutions L.L.C.
                     <br></br>
                     ____________
                 </div>
