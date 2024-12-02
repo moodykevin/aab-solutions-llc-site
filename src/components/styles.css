@@ -92,7 +92,7 @@
 }
 
 .homepage-bgimage {
-    background: url("./imgs/exterior_constuction.jpeg");
+    background: url("./imgs/exterior_construction.webp");
     position: relative;
     height: min(max(50vw, 250px),500px);
     background-position: center;
@@ -100,7 +100,7 @@
   }
 
   .aboutpage-bgimage {
-    background: url("./imgs/aab_fencing.jpeg");
+    background: url("./imgs/aab_fencing.webp");
     position: relative;
     height: 38vw;
     background-position: center;

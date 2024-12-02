@@ -1,5 +1,5 @@
 import { Container, Carousel } from 'react-bootstrap'
-import aab_fencing from './imgs/aab_fencing.jpeg'
+import aab_fencing from './imgs/aab_fencing.webp'
 import carwash_bays from './imgs/carwash_bays.jpeg'
 import carwash_exterior from './imgs/carwash_exterior.jpeg'
 import cement_pour from './imgs/cement_pour.jpeg'

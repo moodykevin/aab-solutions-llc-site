@@ -1,5 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap'
-import aab_fencing from './imgs/aab_fencing.jpeg'
+import aab_fencing from './imgs/aab_fencing.webp'
 import hotel_work from './imgs/hotel_work.jpeg'
 import carwash_interior from './imgs/carwash_interior.jpeg'
 import mri4 from './imgs/mri4.png'
