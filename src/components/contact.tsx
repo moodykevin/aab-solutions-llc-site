@@ -30,7 +30,7 @@ const Contact = () => {
                           <h2 className="contact-section-text">2240 Woolbright Road</h2>
                           <h2 className="contact-section-text">Suite 416</h2>
                           <h2 className="contact-section-text">Boynton Beach, FL 33426</h2>
-                          <a href="tel:860-952-9090"><h2 className="contact-section-text" >860-952-9090</h2></a>
+                          <a href="tel:561-337-4403"><h2 className="contact-section-text" >561-337-4403</h2></a>
                           <br></br>
                           <p className="contact-section-text">Send us a message or call us about your project. All inquiries will be responded to within 24 hours. </p>
                           <br></br><br></br>
